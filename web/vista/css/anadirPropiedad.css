@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.input-field{
+    margin-bottom: 10px;
+}
+.input-field label {
+    font-size: 20px;
+}
+.Pagina{
+    background: -webkit-linear-gradient(90deg, white 10%, #b1e4bc 90%);
+    width: 100%;
+    height: 1000px;
+}
+.Menu{
+    width: 100%;
+    height: 5%;
+    background-color:rgb(0, 35, 101) ;
+}
+.logo{
+    height: 5%;
+    width: 20%;
+}
+.men{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:1%;
+    width: 8%;
+    background-color: #a4d5af;
+    float: right;
+    margin-top: 2%;
+    margin-right:1%;
+    border: 2px solid black ;
+    border-radius: 100px ;
+}
+.men:hover{
+    background-color: cadetblue;
+    color: cyan;
+    border-radius:100px;
+}
+.editar{
+    width: 50%;
+    padding: 30px;
+}
+.añadir{
+    margin-left:10% ;
+    width: 20%;
+    border: solid black 1px;
+}
+.ubica{
+    width: 15%;
+    margin-left: 15%;
+    margin-bottom: 4%;
+}
+.ubi{
+    width: 60%;
+    margin-bottom: 4%;
+}
