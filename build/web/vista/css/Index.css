@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.Pagina{
+    background: -webkit-linear-gradient(90deg, white 10%, #b1e4bc 90%);
+    width: 100%;
+    height: 1000px;
+}
+.Menu{
+    width: 100%;
+    height: 5%;
+    background-color:rgb(0, 35, 101) ;
+}
+.logo{
+    height: 5%;
+    width: 20%;
+}
+.men{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding:1%;
+    width: 8%;
+    background-color: #a4d5af;
+    float: right;
+    margin-top: 2%;
+    margin-right:1%;
+    border: 2px solid black ;
+    border-radius: 100px;
+}
+
+.men:hover{
+    background-color: cadetblue;
+    color: cyan;
+    border-radius: 100px ;
+}
+.busca{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 30px;
+}
+.buscar{
+    float: left;
+    width: 5%;
+    height: 30px;
+}
+.barra{
+    width: 70%;
+    height: 30px;
+}
+.muestra{
+    color: black;
+    width: 18%;
+    height: 350px;
+    border-radius: 10px  ;
+    border: 1px solid black;
+    float: left;
+    margin-left: 11%;
+    margin-top: 5%;
+    padding: 1%;
+    background-color: white;
+}
+.muestra:hover{
+    color: black;
+    width: 19%;
+    height: 355px;
+    border: 2px solid black;
+    box-shadow:rgba(0, 0, 0, 0.671) 10px 10px;
+}
+.finca{
+    width: 100%;
+    border-radius: 10px 10px  0   0 ;
+}
+.jk{
+    width: 100%;
+    height: 900px;
+}
+footer{
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+}
