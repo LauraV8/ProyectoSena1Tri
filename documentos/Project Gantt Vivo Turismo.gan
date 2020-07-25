@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-04-05" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="es">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="157" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="61" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="61" order="2"/>
+        <timeline>
+            <![CDATA[133,92,77,157,122,137,120,116,80,13,148,129,10,154,118,131,82,144,135,139,152,0,123,142,114,18,5,146]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#66ff66 #ff3333 #ffcc66 #ffcc00 #999900 #99ff33 #666600 #ffffcc #ffff99 #ccff00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="209" order="0"/>
+        <field id="1" name="Función" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="1" wed="1" thu="1" fri="1" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Formulación del proyecto" color="#66ffff" shape="0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0" meeting="false" start="2019-08-19" duration="6" complete="100" thirdDate="2020-05-25" thirdDate-constraint="0" expand="true">
+            <task id="5" name="Definición de objetivos general y específicos" color="#0099ff" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-08-19" duration="2" complete="100" thirdDate="2019-07-01" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Justificación" color="#0066cc" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-08-21" duration="1" complete="100" thirdDate="2019-07-01" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Planteamiento del Problema" color="#006699" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-08-22" duration="2" complete="100" thirdDate="2019-08-05" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="Alcance" color="#0033ff" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-08-24" duration="1" complete="100" thirdDate="2019-08-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="77" name="Levantamiento de información" color="#ff66ff" shape="0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0" meeting="false" start="2019-09-02" duration="9" complete="100" thirdDate="2019-08-05" thirdDate-constraint="0" expand="true">
+            <task id="80" name="Creación de instrumentos de recolección de información" color="#ff00cc" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-02" duration="2" complete="100" thirdDate="2019-08-05" thirdDate-constraint="0" expand="true"/>
+            <task id="82" name="Realización de entrevistas" color="#990099" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-07" duration="2" complete="100" thirdDate="2019-08-05" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="92" name="Realización de encuestas" color="#660066" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-07" duration="2" complete="100" thirdDate="2019-08-05" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="114" name="Aplicar observación" color="#9900cc" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-07" duration="2" complete="100" thirdDate="2019-08-04" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="116" name="Realización informe de análisis de información recolectada" color="#cc00cc" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-09" duration="2" complete="100" thirdDate="2019-08-04" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="118" name="Análisis" color="#ff6666" shape="0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0" meeting="false" start="2019-09-02" duration="234" complete="65" thirdDate="2019-08-04" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="120" name="Realización casos de uso" color="#ff3333" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-02" duration="3" complete="100" thirdDate="2019-08-04" thirdDate-constraint="0" expand="true">
+                <depend id="122" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="122" name="Realización casos de uso extendido" color="#ff0033" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-05" duration="3" complete="100" thirdDate="2019-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="129" name="Realización Diagrama BPMN" color="#990000" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-16" duration="2" complete="100" thirdDate="2019-08-11" thirdDate-constraint="0" expand="true"/>
+            <task id="123" name="Definición de requerimientos" color="#cc0000" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-18" duration="3" complete="100" thirdDate="2019-08-04" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="131" name="Realización IEEE 830" color="#990033" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-23" duration="4" complete="99" thirdDate="2019-08-11" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="133" name="Realizar Commits" color="#660000" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-09-13" duration="25" complete="40" thirdDate="2019-08-11" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="166" name="Actualización IEEE830" color="#66ff66" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2020-04-20" duration="3" complete="100" thirdDate="2020-06-07" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="135" name="Diseño" color="#ffff00" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-10-21" duration="276" complete="44" thirdDate="2019-08-11" thirdDate-constraint="0" priority="2" expand="true">
+            <task id="137" name="Modelo Entidad Relación" color="#cccc00" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-10-21" duration="3" complete="90" thirdDate="2019-08-11" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="139" name="Modelo Relacional" color="#ccff00" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-10-24" duration="2" complete="85" thirdDate="2019-08-18" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="142" name="Diccionario de datos" color="#ffff99" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-10-24" duration="2" complete="85" thirdDate="2019-08-18" thirdDate-constraint="0" expand="true"/>
+            <task id="144" name="Diagrama de clases" color="#ffffcc" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-11-19" duration="10" complete="100" thirdDate="2019-08-11" thirdDate-constraint="0" expand="true"/>
+            <task id="146" name="Diagrama de distribución" color="#666600" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-11-29" duration="1" complete="100" thirdDate="2019-08-11" thirdDate-constraint="0" expand="true"/>
+            <task id="148" name="Diagrama de Gantt" color="#99ff33" shape="0,0,1,1,0,1,1,0,1,1,0,0,1,0,0,1" meeting="false" start="2019-11-28" duration="2" complete="100" thirdDate="2019-08-11" thirdDate-constraint="0" expand="true"/>
+            <task id="152" name="Mockups HTML y CSS" color="#999900" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2019-11-19" duration="247" complete="40" thirdDate="2019-08-11" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="154" name="Diagrama de Gantt Nueva versión" color="#ffcc00" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2020-05-25" duration="1" complete="80" thirdDate="2019-08-11" thirdDate-constraint="0" expand="true"/>
+            <task id="157" name="Modelo relacional Nueva versión" color="#ffcc66" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2020-05-14" duration="5" complete="80" thirdDate="2019-08-18" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="162" name="Matriz CRUD" color="#8cb6ce" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2020-05-04" duration="75" complete="90" thirdDate="2019-11-24" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="164" name="Modelo Entidad Relacion Nueva Version" color="#ff3333" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2020-06-19" duration="8" complete="100" thirdDate="2020-03-22" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
